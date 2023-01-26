@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>lmc2700-project2</title>
+    <meta name="description" content="lmc2700-project2" />
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="geometry.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity
+        camera="active: true"
+        look-controls
+        wasd-controls
+        position="0 -20 60"
+      ></a-entity>
+
+      <!-- Red Pieces Right -->
+      <a-entity
+        geometry="primitive: t_prism; vertices: 14 -2 0, 21 -2 0, 19 0 0"
+        material="color: #F3254B"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: r_prism; vertices: 22 -31 0, 21 -11 0, 18 -12 0, 18 -8 0"
+        material="color: #F3254B"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: r_prism; vertices: 34 -41 0, 45 -41 0, 33 -36 0, 45 -40 0"
+        material="color: #F3254B"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 22 -43 0, 35 -46 0, 22 -40 0"
+        material="color: #F3254B"
+      ></a-entity>
+
+      <!-- Red Pieces Left -->
+      <a-entity
+        geometry="primitive: r_prism; vertices: -25 -29 0, -20 -30 0, -28 -30 0, -28 -34 0"
+        material="color: #F3254B"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: r_prism; vertices: -17 -48 0, -16 -53 0, -20.5 -60 0, -20.5 -67 0"
+        material="color: #F3254B"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -42 -73  0, -45 -90  0, -30 -78 0"
+        material="color: #F3254B"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -45 -60  0, -32 -63 0, -27 -61.5 0"
+        material="color: #F3254B"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -45 -60  0, -60 -58 0, -50 -70 0"
+        material="color: #F3254B"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -50 -45 0, -45 -38  0, -65 -24 0"
+        material="color: #F3254B"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -76 -32 0, -72 -45 0, -65 -24 0"
+        material="color: #F3254B"
+      ></a-entity>   
+
+      <!-- Brown Pieces Right -->
+      <a-entity
+        geometry="primitive: t_prism; vertices: 1 -3 0, 14 -4 0, 14 -2 0"
+        material="color: #392B27"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: r_prism; vertices: 18 -12 0, 15 -40 0, 22 -31 0, 22 -32 0"
+        material="color: #392B27"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: r_prism; vertices: 35 -46 0, 45 -43 0, 39 -41 0, 45 -41 0"
+        material="color: #392B27"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 22 -74 0, 24 -52 0, 22 -51 0"
+        material="color: #392B27"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 26 -74 0, 25 -52 0, 24 -52 0"
+        material="color: #392B27"
+      ></a-entity>
+
+      <!-- Brown Pieces Left -->
+      <a-entity
+        geometry="primitive: t_prism; vertices: -5 -20.5 0, -19 -29.5 0, -19.5 -32.5   0"
+        material="color: #392B27"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: -28 -34 0, -26 -40.5 0, -24.5 -40 0"
+        material="color: #392B27"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -28 -34 0, -26 -40.5 0, -24.5 -40 0"
+        material="color: #392B27"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -19.5 -45 0, -18 -52 0, -17 -48 0"
+        material="color: #392B27"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -45 -90  0, -44 -85  0, -90 -120 0"
+        material="color: #392B27"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -42 -73  0, -20.5 -67 0, -20.5 -60.5 0"
+        material="color: #392B27"
+      ></a-entity>      
+      <a-entity
+        geometry="primitive: t_prism; vertices: -49 -82 0, -42 -73  0, -60 -87 0"
+        material="color: #392B27"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -50 -70  0, -38 -66 0, -45 -60  0"
+        material="color: #392B27"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -60 -58 0, -35 -61 0, -45 -38  0"
+        material="color: #392B27"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -65 -55 0, -60 -58 0, -65 -24 0"
+        material="color: #392B27"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: -73 -18 0, -76 -32 0, -65 -24 0"
+        material="color: #392B27"
+      ></a-entity>   
+
+
+      <!-- Blue Pieces Right -->
+      <a-entity
+        geometry="primitive: t_prism; vertices: 21 -11 0, 21 -2 0, 18 -2 0"
+        material="color: #4261B1"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 22 -40 0, 35 -46 0, 33 -36 0"
+        material="color: #4261B1"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 15 -40 0, 22 -51 0, 22 -40 0"
+        material="color: #4261B1"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 35 -46 0, 49 -47 0, 45 -43 0"
+        material="color: #4261B1"
+      ></a-entity>
+
+      <!-- Blue Pieces Left -->
+      <a-entity
+        geometry="primitive: r_prism; vertices: -28 -34 0, -20 -30 0, -20.5 -33 0, -24 -36 0"
+        material="color: #4261B1"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: r_prism; vertices: -19.5 -45 0, -24.5 -40 0, -19 -48 0, -26 -40.5 0"
+        material="color: #4261B1"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -42 -73  0, -30 -78 0, -20.5 -67 0"
+        material="color: #4261B1"
+      ></a-entity>  
+      <a-entity
+        geometry="primitive: t_prism; vertices: -42 -72.5  0, -50 -70  0, -60 -87 0"
+        material="color: #4261B1"
+      ></a-entity>   
+      <a-entity
+        geometry="primitive: t_prism; vertices: -55 -51.5 0, -50 -44.75 0, -65 -24 0"
+        material="color: #4261B1"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: -72 -45 0, -65 -55 0, -65 -24 0"
+        material="color: #4261B1"
+      ></a-entity>    
+
+      <!-- Yellow Pieces Right -->
+      <a-entity
+        geometry="primitive: t_prism; vertices: 14 -4 0, 18 -8 0, 19 -5 0"
+        material="color: #FCBE2D"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 22 -40 0, 33 -36 0, 22 -32 0"
+        material="color: #FCBE2D"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 45 -43 0, 50 -41.5 0, 45 -40 0"
+        material="color: #FCBE2D"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 35 -46 0, 39 -41 0, 34 -41 0"
+        material="color: #FCBE2D"
+      ></a-entity>
+      <a-entity
+        geometry="primitive: t_prism; vertices: 22 -51 0, 35 -46 0, 22 -46 0"
+        material="color: #FCBE2D"
+      ></a-entity>
+
+
+      <!-- Yellow Pieces Left -->
+    <a-entity
+      geometry="primitive: t_prism; vertices: -24 -36 0, -24 -40 0, -20.5 -33 0"
+      material="color: #FCBE2D"
+    ></a-entity>
+    <a-entity
+      geometry="primitive: t_prism; vertices: -43.25 -80  0, -42 -73  0, -49 -82 0"
+      material="color: #FCBE2D"
+    ></a-entity>        
+    <a-entity
+      geometry="primitive: t_prism; vertices: -20.5 -59.5  0, -50 -70  0, -42 -72.5  0"
+      material="color: #FCBE2D"
+    ></a-entity>         
+    <a-entity
+      geometry="primitive: t_prism; vertices: -60 -58 0, -55 -51.5 0, -65 -24 0"
+      material="color: #FCBE2D"
+    ></a-entity>   
+    <a-entity
+      geometry="primitive: t_prism; vertices: -73 -18 0, -65 -24 0, -71 -13 0"
+      material="color: #FCBE2D"
+    ></a-entity>
+
+    <!-- <a-entity geometry="primitive: circle; vertices: 100 100 100, 100 100 100, 100 100 0"
+      material="color: #FFFF00"
+    ></a-entity> -->
+
+    <!-- The sun -->
+
+    <a-circle color="#FCBE2D"
+              position="44 -15 10"
+              side="double"
+              radius="10">
+
+    </a-circle>
+
+
+  <!-- Text Left -->
+    <a-entity position="-70 -50 10" >
+      <a-text value="CRANE   DAYS"
+              width="40"
+              color="#4261B1"
+              letterSpacing="40">
+      </a-text>
+  </a-entity>
+
+  <a-entity position="-70 -52 10" >
+      <a-text value="    2020 "
+              width="40"
+              color="#4261B1"
+              letterSpacing="40">
+      </a-text>
+  </a-entity>
+
+  <a-entity position="-70 -56 10" >
+    <a-text value="KEARNEY"
+            width="40"
+            color="#4261B1"
+            letterSpacing="40">
+    </a-text>
+</a-entity>
+
+<a-entity position="-70 -58 10" >
+  <a-text value="NEBRASKA"
+          width="40"
+          color="#4261B1"
+          letterSpacing="40">
+  </a-text>
+</a-entity>
+
+<a-entity position="-70 -60 10" >
+  <a-text value="MARCH 18"
+          width="40"
+          color="#4261B1"
+          letterSpacing="40"
+          >
+  </a-text>
+</a-entity>
+
+
+<!-- Text Right -->
+
+<a-entity position="30 -50 10" >
+  <a-text value="CRANE   DAYS"
+          width="40"
+          color="#4261B1"
+          letterSpacing="40">
+  </a-text>
+</a-entity>
+
+<a-entity position="30 -52 10" >
+  <a-text value="    2020 "
+          width="40"
+          color="#4261B1"
+          letterSpacing="40">
+  </a-text>
+</a-entity>
+
+<a-entity position="30 -56 10" >
+<a-text value="KEARNEY"
+        width="40"
+        color="#4261B1"
+        letterSpacing="40">
+</a-text>
+</a-entity>
+
+<a-entity position="30 -58 10" >
+<a-text value="NEBRASKA"
+      width="40"
+      color="#4261B1"
+      letterSpacing="40">
+</a-text>
+</a-entity>
+
+<a-entity position="30 -60 10" >
+<a-text value="MARCH 18"
+      width="40"
+      color="#4261B1"
+      letterSpacing="40"
+      >
+</a-text>
+</a-entity>
+
+<!-- Flowers -->
+<a-entity>
+  <!-- branch blue center -->
+  <a-cylinder 
+  color = "#4261B1"
+  radius = .2
+  height = 20
+  position="0 -60 1"
+  scale="1 1 1"
+  >
+  </a-cylinder>
+
+  <!-- leaves -->
+  <a-circle 
+  color="#4261B1"
+  radius = 1.2
+  depth="10"
+  scale="2 1 1"
+  rotation="0 -15 0"
+  position="-2.5 -52 2"
+  side="double">
+  </a-circle>
+
+  <a-circle 
+  color="#F3254B"
+  radius = 1.2
+  depth="10"
+  scale="2 1 1"
+  rotation="0 15 0"
+  position="2.5 -52 2"
+  side="double">
+  </a-circle>
+
+  <a-circle 
+  color="#4261B1"
+  radius = 1.2
+  depth="10"
+  scale="2 1 1"
+  rotation="0 -15 0"
+  position="2.5 -57 2"
+  side="double">
+  </a-circle>
+
+  <a-circle 
+  color="#4261B1"
+  radius = 1.2
+  depth="10"
+  scale="2 1 1"
+  rotation="0 15 0"
+  position="-2.5 -59 2"
+  side="double">
+  </a-circle>
+
+</a-entity>
+
+<!-- branch pink left -->
+<a-entity>
+  <a-cylinder
+  color="#F3254B"
+  radius = .2
+  height = 20
+  position="-5 -80 -3"
+  scale="1 1 1">
+  </a-cylinder>
+
+  <a-icosahedron
+  color="#F3254B"
+  radius="3.2"
+  height="3.2"
+  width="3.2"
+  position="-7 -65 5">
+</a-icosahedron>
+
+<a-icosahedron
+color="#F3254B"
+radius="3.5"
+height="3.5"
+width="3.5"
+position="-2 -69 5">
+</a-icosahedron>
+
+</a-entity>
+
+<!-- blue version on the right -->
+<a-entity>
+  <a-cylinder
+  color="#4261B1"
+  radius = .2
+  height = 20
+  position="8 -80 -3"
+  scale="1 1 1">
+  </a-cylinder>
+
+  <a-icosahedron
+  color="#4261B1"
+  radius="3.2"
+  height="3.2"
+  width="3.2"
+  position="10 -65 5">
+</a-icosahedron>
+
+<a-icosahedron
+color="#4261B1"
+radius="3.5"
+height="3.5"
+width="3.5"
+position="5 -69 5">
+</a-icosahedron>
+
+</a-entity>
+
+
+
+    </a-scene>
+  </body>
+</html>
