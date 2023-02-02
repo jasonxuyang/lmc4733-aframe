@@ -1,6 +1,6 @@
-# lmc2700-project2
+# lmc3733-aframe
 
-lmc2700-project2.
+lmc3733-aframe-assignment.
 
 Built with [A-Frame](https://aframe.io).
 
